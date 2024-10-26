@@ -1,0 +1,11 @@
+[package]
+name = "loudness-addict"
+version = "0.1.0"
+edition = "2021"
+authors = ["Adam Burucs"]
+description = "Measure integrated loudness in LUFS and RMS standards"
+
+[dependencies]
+hound = "3.5.1"
+bs1770 = { git = "https://github.com/ruuda/bs1770.git", branch = "master" }
+anyhow = "1.0.91"
