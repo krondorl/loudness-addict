@@ -8,6 +8,22 @@ This project aims to deepen my Rust language skills combined with my interest in
 
 ## Features
 
+## Example Output
+
+```
+> cargo run -- testsamples/beat.wav testsamples/sine.wav
+    Compiling loudness-addict v0.1.0 (F:\Dev\loudness-addict)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.65s
+    Running `target\debug\loudness-addict.exe testsamples/beat.wav testsamples/sine.wav`
+Loudness Addict 0.1.0
+
+Parameters
+["target\\debug\\loudness-addict.exe", "testsamples/beat.wav", "testsamples/sine.wav"]
+
+testsamples/beat.wav Int. RMS: -9.18
+testsamples/sine.wav Int. RMS: -15.05
+```
+
 ## Technical Requirements
 
 Developed using Rust `v1.82.0`.
